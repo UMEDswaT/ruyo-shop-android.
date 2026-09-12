@@ -131,4 +131,4 @@ public class MainActivity extends Activity {
     private LinearLayout column(int gap) { LinearLayout l=new LinearLayout(this); l.setOrientation(LinearLayout.VERTICAL); l.setShowDividers(LinearLayout.SHOW_DIVIDER_MIDDLE); l.setDividerPadding(dp(gap)); return l; }
     private String val(EditText e){return e.getText().toString().trim();}
     private int dp(int n){return Math.round(n*getResources().getDisplayMetrics().density);}
-}
+
